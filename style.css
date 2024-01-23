@@ -4,12 +4,16 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-
+body{
+    margin: 0 auto;
+    width: 1040px;
+}
 li{
     list-style: none;
 }
 nav{
-    width: 95%;
+    width: 963px;
+    height: 70px;
     margin: 5px auto;
     display: flex;
     justify-content: space-between;
@@ -63,7 +67,7 @@ main{
     position: relative;
 }
 .first>p{
-    width: 30%;
+    width: 45%;
     text-align: center;
 }
 .book{
@@ -86,7 +90,7 @@ main{
 .second>div{
     display: flex;
     border: 1px solid #4DA8FB;
-    width: 50%;
+    width: 70%;
     margin: 10px auto;
     padding: 20px;
     border-radius: 20px;
@@ -118,7 +122,7 @@ div>p{
 .paragraph{
     background-color: rgba(112,188,235,0.55);
     color: #fff;
-    width: 30%;
+    width: 50%;
     padding: 20px;
     border-radius: 10px;
     display: flex;
@@ -126,6 +130,7 @@ div>p{
     align-items: center;
     justify-content: center;
     gap: 5px;
+    text-align: center;
 }
 .paragraph>img{
     width: 35px;
@@ -137,7 +142,8 @@ div>p{
 .overlay {
     position: absolute;
     background-color: #70BCEB !important; /* Adicione a cor desejada */
-    width: 30%;
+    width: 50%;
+    text-align: center;
     height: 120%;
     z-index: 2; /* Certifique-se de que esteja acima das outras divs */
 }
